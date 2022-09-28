@@ -1,0 +1,40 @@
+{
+  "user_details": [
+    {
+      "id": 1,
+      "name": "kumar",
+      "age": 23,
+      "college": "PSR"
+    },
+    {
+      "name": "Maheshwari",
+      "age": 36,
+      "college": "KLN",
+      "id": 4
+    },
+    {
+      "name": "Mugesh",
+      "age": 21,
+      "college": "RIT",
+      "id": 6
+    },
+    {
+      "name": "Aandal",
+      "age": 26,
+      "college": "PSR",
+      "id": 7
+    },
+    {
+      "name": "Virat",
+      "age": 37,
+      "college": "KKKI",
+      "id": 8
+    },
+    {
+      "name": "Manoj L",
+      "age": 24,
+      "college": "PSR",
+      "id": 9
+    }
+  ]
+}

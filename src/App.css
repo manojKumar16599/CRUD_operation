@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App header {
+  font-size: 25px;
+}
+
+.App .user-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.App .user-wrapper .box {
+  border: 1px solid chartreuse;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 0.5rem 1rem;
+}
+
+.App .btn-wrapper .ant-btn:first-child {
+  margin: 7px 15px 0 0;
+}
+
+.modal_wrapper {
+  padding: 2rem 1rem;
+}
+
+.modal_wrapper label {
+  width: 6rem;
+}
+
+.modal_wrapper .ant-input-number {
+  width: 100%;
+}
