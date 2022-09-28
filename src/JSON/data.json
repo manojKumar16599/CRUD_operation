@@ -19,12 +19,6 @@
       "id": 6
     },
     {
-      "name": "Aandal",
-      "age": 26,
-      "college": "PSR",
-      "id": 7
-    },
-    {
       "name": "Virat",
       "age": 37,
       "college": "KKKI",
@@ -35,6 +29,36 @@
       "age": 24,
       "college": "PSR",
       "id": 9
+    },
+    {
+      "name": "Muthu",
+      "age": 21,
+      "college": "KKL",
+      "id": 11
+    },
+    {
+      "name": "Harlie",
+      "age": 24,
+      "college": "LLO",
+      "id": 12
+    },
+    {
+      "name": "Logesh",
+      "age": 22,
+      "college": "SRM",
+      "id": 13
+    },
+    {
+      "name": "Suresh",
+      "age": 20,
+      "college": "PSR",
+      "id": 14
+    },
+    {
+      "name": "lakshmi",
+      "age": 20,
+      "college": "PSR",
+      "id": 15
     }
   ]
 }

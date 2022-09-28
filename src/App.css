@@ -4,6 +4,7 @@
 
 .App header {
   font-size: 25px;
+  margin: 1rem;
 }
 
 .App .user-wrapper {
@@ -33,4 +34,7 @@
 
 .modal_wrapper .ant-input-number {
   width: 100%;
+}
+.modal_wrapper .modal_header {
+  text-transform: capitalize;
 }

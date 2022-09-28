@@ -69,55 +69,58 @@ const App = () => {
 
   const renderContent = (currentItem, currentData) => {
     return (
-      <Form
-        name="user_form"
-        onFinish={onFormSubmit}
-        initialValues={currentData ? currentData : {}}
-      >
-        <Form.Item
-          label="Username"
-          name="name"
-          rules={[
-            {
-              required: true,
-              message: 'Please input your username!',
-            },
-          ]}
+      <div>
+        <h1 className='modal_header'>{currentItem} User</h1>
+        <Form
+          name="user_form"
+          onFinish={onFormSubmit}
+          initialValues={currentData ? currentData : {}}
         >
-          <Input />
-        </Form.Item>
-        <Form.Item
-          label="Age"
-          name="age"
-          rules={[
-            {
-              required: true,
-              message: 'Please input your age!',
-            },
-          ]}
-        >
-          <InputNumber />
-        </Form.Item>
-        <Form.Item
-          label="College"
-          name="college"
-          rules={[
-            {
-              required: true,
-              message: 'Please input your college!',
-            },
-          ]}
-        >
-          <Input />
-        </Form.Item>
-        <Button
-          type='primary'
-          htmlType='submit'
-          className='w-100'
-        >
-          Save
-        </Button>
-      </Form>
+          <Form.Item
+            label="Username"
+            name="name"
+            rules={[
+              {
+                required: true,
+                message: 'Please input your username!',
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+          <Form.Item
+            label="Age"
+            name="age"
+            rules={[
+              {
+                required: true,
+                message: 'Please input your age!',
+              },
+            ]}
+          >
+            <InputNumber />
+          </Form.Item>
+          <Form.Item
+            label="College"
+            name="college"
+            rules={[
+              {
+                required: true,
+                message: 'Please input your college!',
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+          <Button
+            type='primary'
+            htmlType='submit'
+            className='w-100'
+          >
+            Save
+          </Button>
+        </Form>
+      </div>
     )
   };
 
